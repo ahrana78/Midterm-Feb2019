@@ -3,6 +3,7 @@ package datastructure;
 public class DataReader {
 
     public static void main(String[] args) {
+        System.out.println();
         /*
          * User API to read the below textFile and print to console.
          * Use BufferedReader class.

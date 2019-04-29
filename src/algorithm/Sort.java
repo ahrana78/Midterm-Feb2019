@@ -8,11 +8,6 @@ public class Sort {
      * Store all the sorted data into one of the databases.
      */
 
-    public static void printSortedArray(int[] array) {
-        for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
-        }
-    }
 
     public int[] selectionSort(int[] array) {
         final long startTime = System.currentTimeMillis();
@@ -95,4 +90,11 @@ public class Sort {
 
         return list;
     }
+
+    public static void printSortedArray(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
+    }
+
 }
